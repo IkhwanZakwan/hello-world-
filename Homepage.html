@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuisine Dash</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #e63946;
+      margin: 0;
+    }
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem;
+      background-color: #fff;
+      text-align: center;
+    }
+    .main-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 1rem;
+    }
+    .main-content h2 {
+      font-size: 2.5rem;
+      color: #2b2d42;
+    }
+    .main-content p {
+      max-width: 600px;
+      margin: 1rem auto;
+      color: #707070;
+    }
+    .buttons a {
+      margin: .5rem;
+      padding: .75rem 1.5rem;
+      border: none;
+      border-radius: .25rem;
+      background-color: #e63946;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .buttons a:hover {
+      background-color: #d62828;
+    }
+    .menu-section {
+      background-color: #f1f3f5;
+      padding: 2rem;
+    }
+    .menu-section h3 {
+      text-align: center;
+      font-size: 2rem;
+      color: #2b2d42;
+      margin-bottom: 2rem;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .menu-item {
+      background-color: white;
+      padding: 1rem;
+      border-radius: .5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+      width: 200px;
+      text-align: center;
+    }
+    .menu-item h4 {
+      color: #2b2d42;
+      margin: .5rem 0;
+    }
+    .menu-item p {
+      color: #707070;
+      margin: .5rem 0;
+    }
+    .menu-item a {
+      color: #e63946;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .menu-item a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      color: #707070;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cuisine Dash</h1>
+  </header>
+
+  <section class="main-content">
+    <img src="food.jpg" alt="Best food for your taste">
+    <h2>Best food for your taste</h2>
+    <p>Discover delectable cuisine and unforgettable moments in our welcoming culinary haven.</p>
+    <div class="buttons">
+      <a href="#">Book A Table</a>
+      <a href="#">Explore Menu</a>
+    </div>
+  </section>
+
+  <section class="menu-section">
+    <h3>Browse Our Menu</h3>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h4>Breakfast</h4>
+        <p>Explore our delicious breakfast options.</p>
+        <a href="#">Explore Menu</a>
+      </div>
+      <div class="menu-item">
+        <h4>Main Dishes</h4>
+        <p>Satisfy your cravings with our main dishes.</p>
+        <a href="#">Explore Menu</a>
+      </div>
+      <div class="menu-item">
+        <h4>Drinks</h4>
+        <p>Refresh yourself with our drink choices.</p>
+        <a href="#">Explore Menu</a>
+      </div>
+      <div class="menu-item">
+        <h4>Desserts</h4>
+        <p>Indulge in our sweet desserts.</p>
+        <a href="#">Explore Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Cuisine Dash. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
